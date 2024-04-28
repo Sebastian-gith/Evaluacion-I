@@ -13,11 +13,8 @@ body {
     font-family: 'Libre Franklin', sans-serif;
 }
 
-header{
-    background-color: #2e9af4;
-}
-
 .titulo{
+    background-color: #2e9af4;
     color: #ffffff;
     text-align: center;
     font-weight: 700;
@@ -26,6 +23,7 @@ header{
 
 .envio{
     display: flex;
+    margin-top: 2.5rem;
 }
 
 /*
@@ -36,7 +34,6 @@ header{
 <div class="feliz"></div>
             */
 .image{
-    background-color: red;
     flex-basis: 9%;
     display: flex;
     justify-content: center;
@@ -47,16 +44,61 @@ header{
 }
 
 .buscador{
-    background-color: blue;
+    background-color: white;
     flex-basis: 54.5%;
+    display: flex;
+    align-items: center;
 }
+
+.caja-input{
+    position: relative;
+}
+
+.caja-input input{
+    width: 78.15rem;
+    height: 5rem;
+    border-radius: 0.3rem;
+    padding: 2rem 4.5rem 2rem 2rem; 
+    /* Medidas para que el input sea mas grande */
+    border: 0.2rem solid #C8C8C8;
+}
+
+.caja-input i{
+    color: #ffffff;
+    background-color: #f8b020;
+    font-size: 2.4rem;
+    position: absolute;
+    left: 78rem;
+    top: 0.1rem;
+    padding: 1.25rem 1.7rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.caja-input input::placeholder{
+    color: #A9A9A9;
+}
+
 .caja{
-    background-color: black;
     flex-basis: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #53a4b7;
+}
+
+.caja i{
+    font-size: 3.5rem;
+    color: #76a5af;
 }
 
 .cuenta{
-    background-color: aquamarine;
+    background-color: #53a4b7;
     flex-basis: 17%;
 }
 
