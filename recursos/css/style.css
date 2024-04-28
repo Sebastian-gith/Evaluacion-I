@@ -58,14 +58,13 @@ body {
     width: 78.15rem;
     height: 5rem;
     border-radius: 0.3rem;
-    padding: 2rem 4.5rem 2rem 2rem; 
+    padding: 2rem 4.5rem 2rem 1rem; 
     /* Medidas para que el input sea mas grande */
-    border: 0.2rem solid #C8C8C8;
+    border: 0.1rem solid #C8C8C8;
 }
 
 .caja-input i{
     color: #ffffff;
-    background-color: #f8b020;
     font-size: 2.4rem;
     position: absolute;
     left: 78rem;
@@ -73,10 +72,12 @@ body {
     padding: 1.25rem 1.7rem;
     border-radius: 0.3rem;
     border: none;
+    background-color: #f9af20;
 }
 
 .caja-input input::placeholder{
-    color: #A9A9A9;
+    color: #C8C8C8;
+    font-size: 1.75rem;
 }
 
 .caja{
@@ -94,15 +95,59 @@ body {
 
 .caja i{
     font-size: 3.5rem;
-    color: #76a5af;
+    color: #53a4b7;
 }
 
 .cuenta{
-    background-color: #53a4b7;
     flex-basis: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuenta i{
+    font-size: 3rem;
+    color: #53a4b7;
+}
+
+.cuenta p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #53a4b7;
 }
 
 .feliz{
-    background-color: orange;
     flex-basis: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feliz i{
+    font-size: 3.5rem;
+    color: #53a4b7;
+}
+
+.nav-padre{
+    display: flex; /* Uso de flexbox (para dar ordenes a lo de adentro del nav)*/
+    align-items: center;
+    margin-left: 2.3rem;
+    height: 6rem;
+}
+
+.nav-padre a{
+    text-decoration: none; /* para quitar el sombreado de las enlaces a */
+    font-weight: 550;
+    color: #53a4b7;
+    margin-right: 2rem; /* Espacio entre los enlaces (Igual que el margin-right)*/
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagenes img{
+    width: 90%;
 }
