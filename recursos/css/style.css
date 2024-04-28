@@ -1,0 +1,66 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem; /* calculo para que 16px * 0.625 = sea igual a 10px */
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header{
+    background-color: #2e9af4;
+}
+
+.titulo{
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    padding: 1.5rem 0;
+}
+
+.envio{
+    display: flex;
+}
+
+/*
+<div class="image"></div>
+<div class="buscador"></div>
+<div class="caja"></div>
+<div class="cuenta"></div>
+<div class="feliz"></div>
+            */
+.image{
+    background-color: red;
+    flex-basis: 9%;
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    width: 10rem;
+}
+
+.buscador{
+    background-color: blue;
+    flex-basis: 54.5%;
+}
+.caja{
+    background-color: black;
+    flex-basis: 12.5%;
+}
+
+.cuenta{
+    background-color: aquamarine;
+    flex-basis: 17%;
+}
+
+.feliz{
+    background-color: orange;
+    flex-basis: 7%;
+}
