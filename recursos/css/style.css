@@ -85,11 +85,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5.5rem;
 }
 
 .caja p{
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 550;
     color: #53a4b7;
 }
 
@@ -112,7 +113,7 @@ body {
 
 .cuenta p{
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 550;
     color: #53a4b7;
 }
 
@@ -132,7 +133,8 @@ body {
     display: flex; /* Uso de flexbox (para dar ordenes a lo de adentro del nav)*/
     align-items: center;
     margin-left: 2.3rem;
-    height: 6rem;
+    margin-top: 1rem;
+    height: 4.8rem;
 }
 
 .nav-padre a{
@@ -142,9 +144,46 @@ body {
     margin-right: 2rem; /* Espacio entre los enlaces (Igual que el margin-right)*/
 }
 
+#linea{
+    border: 0.2rem solid #f9f9f9;
+}
+
+.linea2{
+    position: absolute;
+    top: 25.2rem;
+    width: 24%;
+    border: 0.05rem solid #4492e6;
+}
+
+.linea3{
+    position: absolute;
+    top: 29.5rem;
+    width: 24%;
+    border: 0.05rem solid #4492e6;
+}
+
+.imagenes{
+    margin-top: 1rem;
+}
+
+.cubo{
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #e4261a;
+    width: 9.2rem;
+    height: 2rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 21rem;
+    padding: 1.3rem 0;
+}
+
 .monster{
     display: flex;
     justify-content: center;
+    margin-top: -1.1rem;
 }
 
 .monster img{
@@ -178,17 +217,15 @@ body {
 }
 
 .nov{
-    margin-top: 6rem;
+    margin-top: 6.3rem;
     text-align: center;
     color: #4492e6;
-    font-size: 1.35rem;
-    background-color: antiquewhite;
+    font-size: 1.31rem;
 }
 
 .articulos{
     display: flex;
     justify-content: center;
-    background-color: burlywood;
     margin-top: 3rem;
 }
 
@@ -196,18 +233,87 @@ body {
     width: 21.5rem;
 }
 
-.robot1,.robot2,.robot13,.robot4,.robot5{
-    border: 0.1rem solid #C8C8C8;
-    padding: 1.5rem;
+.articulos2{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.articulos2 img{
+    width: 21.5rem;
+}
+
+.robot1,.robot2,.robot3,.robot4,.robot5{
+    border: 0.2rem solid #f7f7f7;
+    padding: 1.6rem 1.6rem 0 1.6rem;
+}
+
+.perrito,.barbie,.auto,.america{
+    margin-right: 2rem;
+}
+
+.perrito,.barbie,.auto,.america,.dino{
+    border: 0.2rem solid #f7f7f7;
+    padding: 1.6rem 1.6rem 0 1.6rem;
+    position: relative;
+    
+}
+
+.robot1,.robot2,.robot3,.robot4{
+    margin-right: 2rem;
 }
 
 .precio{
-    font-size: 2.75rem;
+    font-size: 2.55rem;
     color: #4492e6;
 }
 
+.precio2{
+    font-size: 2.55rem;
+    color: #dc291d;
+}
+
 .hasbro{
-    font-size: 1.3rem;
+    font-size: 1.39rem;
     color: #4492e6;
 }
+
+.price{
+    font-size: 1.65rem;
+    color: #4492e6;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn a{
+    width: 11rem;
+    height: 4.5rem;
+    text-decoration: none; 
+    font-weight: 700;
+    font-size: 1.65rem;
+    /* para quitar el sombreado de las enlaces a */
+    color: #ffffff;
+    background-color: #f8b020;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+    border-radius: 0.3rem;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: center;
+}
+
+.ofertas h2{
+    font-size: 1.9rem;
+    margin: 3rem 0 0 0;
+    color: #4294e5;
+}
+
 
