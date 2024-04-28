@@ -142,12 +142,38 @@ body {
     margin-right: 2rem; /* Espacio entre los enlaces (Igual que el margin-right)*/
 }
 
-.imagenes{
+.monster{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
-.imagenes img{
-    width: 90%;
+.monster img{
+    width: 135rem;
 }
+
+.juguetes{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.frozen{
+    width: 88rem;
+    margin-right: 2rem;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.jenga{
+    width: 38rem;
+    margin-right: 2rem;
+}
+
+.batman{
+    width: 95rem;
+}
+
