@@ -13,6 +13,64 @@ body {
     font-family: 'Libre Franklin', sans-serif;
 }
 
+footer{
+    background-color: #2e9af4;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    display: flex;
+}
+
+.boton a{
+    width: 11rem;
+    height: 4.5rem;
+    text-decoration: none; 
+    font-weight: 700;
+    font-size: 1.65rem;
+    /* para quitar el sombreado de las enlaces a */
+    color: #ffffff;
+    background-color: #f8b020;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+}
+
+.caja-input input{
+    font-size: 1.32rem;
+    color: black; 
+    /* Para que todo el texto que este dentro DEL INPUT SEA DE (COLOR-#FFF) */
+    outline: none;
+}
+
+.ultimo{
+    margin-right: 0;
+}
+
+.ultimo i{
+    border: 0.5rem solid #4ca8f3;
+    font-size: 2rem;
+    background-color: #4ca8f3;
+    border-radius: 10rem;
+    margin-right: 0.5rem;
+}
+
+.boxes{
+    margin-right: 4.2rem;
+}
+
+.boxes h2{
+    font-size: 1.8rem;
+}
+
+.boxes span{
+    font-weight: 550;
+}
+
 .titulo{
     background-color: #2e9af4;
     color: #ffffff;
