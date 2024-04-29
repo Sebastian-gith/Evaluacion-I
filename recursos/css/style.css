@@ -316,4 +316,49 @@ body {
     color: #4294e5;
 }
 
+.subtitulo{
+    text-align: center;
+    padding-bottom: 3.8rem;
+}
 
+.subtitulo a{
+    color: black;
+}
+
+.subtitulo i{
+    color: #f9af20;
+}
+
+.start{
+    margin-top: -1.8rem;
+}
+
+.comentarios{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 13rem;
+}
+
+.cajon{
+    margin-left: -49rem;
+}
+
+.cajon i{
+    color: #f9af20; 
+}
+
+.cajon img{
+    width: 5.5rem;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.logos img{
+    width: 16rem;
+    margin-right: 4rem;
+}
