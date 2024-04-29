@@ -15,9 +15,40 @@ body {
 
 footer{
     background-color: #2e9af4;
+}
+
+.up {
     color: #ffffff;
     display: flex;
     justify-content: center;
+    padding-top: 6.5rem;
+}
+
+.down {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.gemelo{
+    margin-left: -8rem;
+    color: #abdcff;
+    font-size: 1.4rem;
+}
+
+.gemelo2{
+    margin-right: -9rem;
+}
+
+#watsap{
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0;
 }
 
 .boton{
@@ -25,7 +56,7 @@ footer{
 }
 
 .boton a{
-    width: 11rem;
+    width: 12.5rem;
     height: 4.5rem;
     text-decoration: none; 
     font-weight: 700;
